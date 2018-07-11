@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class QuerySection extends Component {
-  render() {
-    return (
-      <div> This will be where the query is done </div>
-    );
-  }
-}
+const QuerySection = ({ handleChange }) => (
+  <div>
+    <div>List usernames separated by commas:</div>
+    <input onChange={handleChange}></input>
+  </div>
+);
+
+export default QuerySection;

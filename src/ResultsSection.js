@@ -1,7 +1,15 @@
 import React from 'react';
 
-const ResultsSection = () => (
-  <div>This will be where the results go</div>
+const ResultsSection = ({ userIds }) => (
+  <div>
+    {
+      userIds.map(id => (
+        <div key={id}>
+          {id}
+        </div>
+      ))
+    }
+  </div>
 );
 
 export default ResultsSection;
