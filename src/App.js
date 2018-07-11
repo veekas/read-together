@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import QuerySection from './QuerySection';
+import ResultsSection from './ResultsSection';
 import './App.css';
 
 class App extends Component {
@@ -6,10 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          This will be where the query is done
+          <QuerySection />
         </header>
         <p className="App-intro">
-          This will be where the results go
+          <ResultsSection />
         </p>
       </div>
     );
