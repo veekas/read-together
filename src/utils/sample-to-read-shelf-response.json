@@ -1,0 +1,865 @@
+{
+  "Request": {
+    "authentication": {
+      "_text": "true"
+    },
+    "key": {
+      "_cdata": "RQIOZYPGPuL2S6Wub1zorw"
+    },
+    "method": {
+      "_cdata": "review_list"
+    }
+  },
+  "shelf": {
+    "_attributes": {
+      "exclusive": "true",
+      "id": "74790138",
+      "name": "to-read",
+      "sortable": "true"
+    }
+  },
+  "reviews": {
+    "_attributes": {
+      "start": "1",
+      "end": "5",
+      "total": "948"
+    },
+    "review": [
+      {
+        "id": {
+          "_text": "2455644751"
+        },
+        "book": {
+          "id": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "35068618"
+          },
+          "isbn": {
+            "_text": "0062498576"
+          },
+          "isbn13": {
+            "_text": "9780062498571"
+          },
+          "text_reviews_count": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "28"
+          },
+          "uri": {
+            "_text": "kca://book/amzn1.gr.book.v1.PYiooSgCvKA4b6DZtxVQ0g"
+          },
+          "title": {
+            "_text": "On the Come Up"
+          },
+          "title_without_series": {
+            "_text": "On the Come Up"
+          },
+          "image_url": {
+            "_text": "https://images.gr-assets.com/books/1518828894m/35068618.jpg"
+          },
+          "small_image_url": {
+            "_text": "https://images.gr-assets.com/books/1518828894s/35068618.jpg"
+          },
+          "large_image_url": {},
+          "link": {
+            "_text": "https://www.goodreads.com/book/show/35068618-on-the-come-up"
+          },
+          "num_pages": {
+            "_text": "320"
+          },
+          "format": {
+            "_text": "ebook"
+          },
+          "edition_information": {},
+          "publisher": {
+            "_text": "Balzer + Bray"
+          },
+          "publication_day": {
+            "_text": "5"
+          },
+          "publication_year": {
+            "_text": "2019"
+          },
+          "publication_month": {
+            "_text": "2"
+          },
+          "average_rating": {
+            "_text": "4.18"
+          },
+          "ratings_count": {
+            "_text": "57"
+          },
+          "description": {
+            "_text": "Sixteen-year-old Bri wants to be one of the greatest rappers of all time. Or at least make it out of her neighborhood one day. As the daughter of an underground rap legend who died before he hit big, Bri’s got big shoes to fill. But now that her mom has unexpectedly lost her job, food banks and shutoff notices are as much a part of Bri’s life as beats and rhymes. With bills piling up and homelessness staring her family down, Bri no longer just wants to make it—she has to make it.<br /><br /><i>On the Come Up</i> is Angie Thomas’s homage to hip-hop, the art that sparked her passion for storytelling and continues to inspire her to this day. It is the story of fighting for your dreams, even as the odds are stacked against you; of the struggle to become who you are and not who everyone expects you to be; and of the desperate realities of poor and working-class black families."
+          },
+          "authors": {
+            "author": {
+              "id": {
+                "_text": "15049422"
+              },
+              "name": {
+                "_text": "Angie Thomas"
+              },
+              "role": {},
+              "image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1471998209p5/15049422.jpg"
+              },
+              "small_image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1471998209p2/15049422.jpg"
+              },
+              "link": {
+                "_cdata": "https://www.goodreads.com/author/show/15049422.Angie_Thomas"
+              },
+              "average_rating": {
+                "_text": "4.56"
+              },
+              "ratings_count": {
+                "_text": "155903"
+              },
+              "text_reviews_count": {
+                "_text": "27010"
+              }
+            }
+          },
+          "published": {
+            "_text": "2019"
+          },
+          "work": {
+            "id": {
+              "_text": "56364068"
+            },
+            "uri": {
+              "_text": "kca://work/amzn1.gr.work.v1.qENqxKdBeVtShRa0q8y7oA"
+            }
+          }
+        },
+        "rating": {
+          "_text": "0"
+        },
+        "votes": {
+          "_text": "0"
+        },
+        "spoiler_flag": {
+          "_text": "false"
+        },
+        "spoilers_state": {
+          "_text": "none"
+        },
+        "shelves": {
+          "shelf": {
+            "_attributes": {
+              "exclusive": "true",
+              "id": "74790138",
+              "name": "to-read",
+              "review_shelf_id": "2102011153",
+              "sortable": "true"
+            }
+          }
+        },
+        "recommended_for": {},
+        "recommended_by": {},
+        "started_at": {},
+        "read_at": {},
+        "date_added": {
+          "_text": "Fri Jul 13 08:08:59 -0700 2018"
+        },
+        "date_updated": {
+          "_text": "Fri Jul 13 08:09:00 -0700 2018"
+        },
+        "read_count": {
+          "_text": "0"
+        },
+        "body": {},
+        "comments_count": {
+          "_text": "0"
+        },
+        "url": {
+          "_cdata": "https://www.goodreads.com/review/show/2455644751"
+        },
+        "link": {
+          "_cdata": "https://www.goodreads.com/review/show/2455644751"
+        },
+        "owned": {
+          "_text": "0"
+        }
+      },
+      {
+        "id": {
+          "_text": "2455018790"
+        },
+        "book": {
+          "id": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "17607"
+          },
+          "isbn": {
+            "_text": "0688168442"
+          },
+          "isbn13": {
+            "_text": "9780688168445"
+          },
+          "text_reviews_count": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "841"
+          },
+          "uri": {
+            "_text": "kca://book/amzn1.gr.book.v1.NbWbcDcjtpZbIhyYibnpiQ"
+          },
+          "title": {
+            "_text": "All About Love: New Visions"
+          },
+          "title_without_series": {
+            "_text": "All About Love: New Visions"
+          },
+          "image_url": {
+            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          },
+          "small_image_url": {
+            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          },
+          "large_image_url": {},
+          "link": {
+            "_text": "https://www.goodreads.com/book/show/17607.All_About_Love"
+          },
+          "num_pages": {
+            "_text": "240"
+          },
+          "format": {
+            "_text": "Hardcover"
+          },
+          "edition_information": {},
+          "publisher": {
+            "_text": "William Morrow"
+          },
+          "publication_day": {
+            "_text": "22"
+          },
+          "publication_year": {
+            "_text": "1999"
+          },
+          "publication_month": {
+            "_text": "12"
+          },
+          "average_rating": {
+            "_text": "3.96"
+          },
+          "ratings_count": {
+            "_text": "8400"
+          },
+          "description": {
+            "_text": "<em>All About Love</em> offers radical new ways to think about love by showing its interconnectedness in our private and public lives. In eleven concise chapters, hooks explains how our everyday notions of what it means to give and receive love often fail us, and how these ideals are established in early childhood. She offers a rethinking of self-love (without narcissism) that will bring peace and compassion to our personal and professional lives, and asserts the place of love to end struggles between individuals, in communities, and among societies. Moving from the cultural to the intimate, hooks notes the ties between love and loss and challenges the prevailing notion that romantic love is the most important love of all.<br /><br />Visionary and original, hooks shows how love heals the wounds we bear as individuals and as a nation, for it is the cornerstone of compassion and forgiveness and holds the power to overcome shame.<br /><br />For readers who have found ongoing delight and wisdom in bell hooks's life and work, and for those who are just now discovering her, <em>All About Love</em> is essential reading and a brilliant book that will change how we think about love, our culture-and one another."
+          },
+          "authors": {
+            "author": {
+              "id": {
+                "_text": "10697"
+              },
+              "name": {
+                "_text": "bell hooks"
+              },
+              "role": {},
+              "image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1229626374p5/10697.jpg"
+              },
+              "small_image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1229626374p2/10697.jpg"
+              },
+              "link": {
+                "_cdata": "https://www.goodreads.com/author/show/10697.bell_hooks"
+              },
+              "average_rating": {
+                "_text": "4.20"
+              },
+              "ratings_count": {
+                "_text": "57040"
+              },
+              "text_reviews_count": {
+                "_text": "4308"
+              }
+            }
+          },
+          "published": {
+            "_text": "1999"
+          },
+          "work": {
+            "id": {
+              "_text": "270045"
+            },
+            "uri": {
+              "_text": "kca://work/amzn1.gr.work.v1.acBV-wwRPCf91Gavg0xEtA"
+            }
+          }
+        },
+        "rating": {
+          "_text": "0"
+        },
+        "votes": {
+          "_text": "0"
+        },
+        "spoiler_flag": {
+          "_text": "false"
+        },
+        "spoilers_state": {
+          "_text": "none"
+        },
+        "shelves": {
+          "shelf": {
+            "_attributes": {
+              "exclusive": "true",
+              "id": "74790138",
+              "name": "to-read",
+              "review_shelf_id": "2101397714",
+              "sortable": "true"
+            }
+          }
+        },
+        "recommended_for": {},
+        "recommended_by": {},
+        "started_at": {},
+        "read_at": {},
+        "date_added": {
+          "_text": "Thu Jul 12 16:45:58 -0700 2018"
+        },
+        "date_updated": {
+          "_text": "Thu Jul 12 16:45:58 -0700 2018"
+        },
+        "read_count": {
+          "_text": "0"
+        },
+        "body": {},
+        "comments_count": {
+          "_text": "0"
+        },
+        "url": {
+          "_cdata": "https://www.goodreads.com/review/show/2455018790"
+        },
+        "link": {
+          "_cdata": "https://www.goodreads.com/review/show/2455018790"
+        },
+        "owned": {
+          "_text": "0"
+        }
+      },
+      {
+        "id": {
+          "_text": "2454829238"
+        },
+        "book": {
+          "id": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "36664344"
+          },
+          "isbn": {
+            "_text": "1501126075"
+          },
+          "isbn13": {
+            "_text": "9781501126079"
+          },
+          "text_reviews_count": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "47"
+          },
+          "uri": {
+            "_text": "kca://book/amzn1.gr.book.v1.RTTNb3xMLVj4PCvX_Xb0dQ"
+          },
+          "title": {
+            "_text": "Sing, Unburied, Sing"
+          },
+          "title_without_series": {
+            "_text": "Sing, Unburied, Sing"
+          },
+          "image_url": {
+            "_text": "https://images.gr-assets.com/books/1524175664m/36664344.jpg"
+          },
+          "small_image_url": {
+            "_text": "https://images.gr-assets.com/books/1524175664s/36664344.jpg"
+          },
+          "large_image_url": {},
+          "link": {
+            "_text": "https://www.goodreads.com/book/show/36664344-sing-unburied-sing"
+          },
+          "num_pages": {
+            "_text": "320"
+          },
+          "format": {
+            "_text": "Paperback"
+          },
+          "edition_information": {},
+          "publisher": {
+            "_text": "Scribner"
+          },
+          "publication_day": {
+            "_text": "8"
+          },
+          "publication_year": {
+            "_text": "2018"
+          },
+          "publication_month": {
+            "_text": "5"
+          },
+          "average_rating": {
+            "_text": "4.07"
+          },
+          "ratings_count": {
+            "_text": "46652"
+          },
+          "description": {
+            "_text": "An intimate portrait of a family and an epic tale of hope and struggle, <i>Sing, Unburied, Sing</i> examines the ugly truths at the heart of the American story and the power – and limitations – of family bonds. <br /><br />Jojo is thirteen years old and trying to understand what it means to be a man. His mother, Leonie, is in constant conflict with herself and those around her. She is black and her children’s father is white. Embattled in ways that reflect the brutal reality of her circumstances, she wants to be a better mother, but can’t put her children above her own needs, especially her drug use. <br /><br />When the children’s father is released from prison, Leonie packs her kids and a friend into her car and drives north to the heart of Mississippi and Parchman Farm, the State Penitentiary. At Parchman, there is another boy, the ghost of a dead inmate who carries all of the ugly history of the South with him in his wandering. He too has something to teach Jojo about fathers and sons, about legacies, about violence, about love. <br /><br />Rich with Ward’s distinctive, lyrical language, <i>Sing, Unburied, Sing</i> brings the archetypal road novel into rural twenty-first century America. It is a majestic new work from an extraordinary and singular author."
+          },
+          "authors": {
+            "author": {
+              "id": {
+                "_text": "1676417"
+              },
+              "name": {
+                "_text": "Jesmyn Ward"
+              },
+              "role": {},
+              "image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1314898674p5/1676417.jpg"
+              },
+              "small_image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1314898674p2/1676417.jpg"
+              },
+              "link": {
+                "_cdata": "https://www.goodreads.com/author/show/1676417.Jesmyn_Ward"
+              },
+              "average_rating": {
+                "_text": "4.02"
+              },
+              "ratings_count": {
+                "_text": "88511"
+              },
+              "text_reviews_count": {
+                "_text": "12869"
+              }
+            }
+          },
+          "published": {
+            "_text": "2018"
+          },
+          "work": {
+            "id": {
+              "_text": "53537916"
+            },
+            "uri": {
+              "_text": "kca://work/amzn1.gr.work.v1.lVpx1wlv1dpDajjTo9ag-A"
+            }
+          }
+        },
+        "rating": {
+          "_text": "0"
+        },
+        "votes": {
+          "_text": "0"
+        },
+        "spoiler_flag": {
+          "_text": "false"
+        },
+        "spoilers_state": {
+          "_text": "none"
+        },
+        "shelves": {
+          "shelf": {
+            "_attributes": {
+              "exclusive": "true",
+              "id": "74790138",
+              "name": "to-read",
+              "review_shelf_id": "2101208969",
+              "sortable": "true"
+            }
+          }
+        },
+        "recommended_for": {},
+        "recommended_by": {},
+        "started_at": {},
+        "read_at": {},
+        "date_added": {
+          "_text": "Thu Jul 12 13:09:22 -0700 2018"
+        },
+        "date_updated": {
+          "_text": "Thu Jul 12 13:09:23 -0700 2018"
+        },
+        "read_count": {
+          "_text": "0"
+        },
+        "body": {},
+        "comments_count": {
+          "_text": "0"
+        },
+        "url": {
+          "_cdata": "https://www.goodreads.com/review/show/2454829238"
+        },
+        "link": {
+          "_cdata": "https://www.goodreads.com/review/show/2454829238"
+        },
+        "owned": {
+          "_text": "0"
+        }
+      },
+      {
+        "id": {
+          "_text": "2452064195"
+        },
+        "book": {
+          "id": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "13166586"
+          },
+          "isbn": {
+            "_text": "0374299277"
+          },
+          "isbn13": {
+            "_text": "9780374299279"
+          },
+          "text_reviews_count": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "251"
+          },
+          "uri": {
+            "_text": "kca://book/amzn1.gr.book.v1.ZGxrqyS7IWXEoF0E-Agd7Q"
+          },
+          "title": {
+            "_text": "The Fish That Ate the Whale: The Life and Times of America's Banana King"
+          },
+          "title_without_series": {
+            "_text": "The Fish That Ate the Whale: The Life and Times of America's Banana King"
+          },
+          "image_url": {
+            "_text": "https://images.gr-assets.com/books/1327473440m/13166586.jpg"
+          },
+          "small_image_url": {
+            "_text": "https://images.gr-assets.com/books/1327473440s/13166586.jpg"
+          },
+          "large_image_url": {},
+          "link": {
+            "_text": "https://www.goodreads.com/book/show/13166586-the-fish-that-ate-the-whale"
+          },
+          "num_pages": {
+            "_text": "288"
+          },
+          "format": {
+            "_text": "Hardcover"
+          },
+          "edition_information": {},
+          "publisher": {
+            "_text": "Farrar, Straus and Giroux"
+          },
+          "publication_day": {
+            "_text": "5"
+          },
+          "publication_year": {
+            "_text": "2012"
+          },
+          "publication_month": {
+            "_text": "6"
+          },
+          "average_rating": {
+            "_text": "4.01"
+          },
+          "ratings_count": {
+            "_text": "2257"
+          },
+          "description": {
+            "_text": "<b>A legendary tale, both true and astonishing, from the author of <i>Israel is Real</i> and </b><i>\n  <b>Sweet and Low</b>\n  <br /><br /></i>When Samuel Zemurray arrived in America in 1891, he was tall, gangly, and penniless. When he died in the grandest house in New Orleans sixty-nine years later, he was among the richest, most powerful men in the world. In between, he worked as a fruit peddler, a banana hauler, a dockside hustler, and a plantation owner. He battled and conquered the United Fruit Company, becoming a symbol of the best and worst of the United States: proof that America is the land of opportunity, but also a classic example of the corporate pirate who treats foreign nations as the backdrop for his adventures. In Latin America, when people shouted “Yankee, go home!” it was men like Zemurray they had in mind.<br /><br />            Rich Cohen’s brilliant historical profile <i>The Fish That Ate the Whale</i> unveils Zemurray as a hidden kingmaker and capitalist revolutionary, driven by an indomitable will to succeed. Known as El Amigo, the Gringo, or simply Z, the Banana Man lived one of the great untold stories of the last hundred years. Starting with nothing but a cart of freckled bananas, he built a sprawling empire of banana cowboys, mercenary soldiers, Honduran peasants, CIA agents, and American statesmen. From hustling on the docks of New Orleans to overthrowing Central American governments, from feuding with Huey Long to working with the Dulles brothers, Zemurray emerges as an unforgettable figure, connected to the birth of modern American diplomacy, public relations, business, and war—a monumental life that reads like a parable of the American dream.<br /><br /><br /><i></i><br /><br /> "
+          },
+          "authors": {
+            "author": {
+              "id": {
+                "_text": "16283"
+              },
+              "name": {
+                "_text": "Rich Cohen"
+              },
+              "role": {},
+              "image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1316898307p5/16283.jpg"
+              },
+              "small_image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1316898307p2/16283.jpg"
+              },
+              "link": {
+                "_cdata": "https://www.goodreads.com/author/show/16283.Rich_Cohen"
+              },
+              "average_rating": {
+                "_text": "3.96"
+              },
+              "ratings_count": {
+                "_text": "9784"
+              },
+              "text_reviews_count": {
+                "_text": "1366"
+              }
+            }
+          },
+          "published": {
+            "_text": "2012"
+          },
+          "work": {
+            "id": {
+              "_text": "18345809"
+            },
+            "uri": {
+              "_text": "kca://work/amzn1.gr.work.v1.6-RnzSU6QS__Ur-lHWbe1A"
+            }
+          }
+        },
+        "rating": {
+          "_text": "0"
+        },
+        "votes": {
+          "_text": "0"
+        },
+        "spoiler_flag": {
+          "_text": "false"
+        },
+        "spoilers_state": {
+          "_text": "none"
+        },
+        "shelves": {
+          "shelf": {
+            "_attributes": {
+              "exclusive": "true",
+              "id": "74790138",
+              "name": "to-read",
+              "review_shelf_id": "2098486856",
+              "sortable": "true"
+            }
+          }
+        },
+        "recommended_for": {},
+        "recommended_by": {},
+        "started_at": {},
+        "read_at": {},
+        "date_added": {
+          "_text": "Tue Jul 10 07:44:14 -0700 2018"
+        },
+        "date_updated": {
+          "_text": "Tue Jul 10 07:44:14 -0700 2018"
+        },
+        "read_count": {
+          "_text": "0"
+        },
+        "body": {},
+        "comments_count": {
+          "_text": "0"
+        },
+        "url": {
+          "_cdata": "https://www.goodreads.com/review/show/2452064195"
+        },
+        "link": {
+          "_cdata": "https://www.goodreads.com/review/show/2452064195"
+        },
+        "owned": {
+          "_text": "0"
+        }
+      },
+      {
+        "id": {
+          "_text": "2450769655"
+        },
+        "book": {
+          "id": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "37830765"
+          },
+          "isbn": {
+            "_text": "1847925391"
+          },
+          "isbn13": {
+            "_text": "9781847925398"
+          },
+          "text_reviews_count": {
+            "_attributes": {
+              "type": "integer"
+            },
+            "_text": "43"
+          },
+          "uri": {
+            "_text": "kca://book/amzn1.gr.book.v1.WzTXGFYUf0hMSQjhmjJbgA"
+          },
+          "title": {
+            "_text": "Ten Arguments For Deleting Your Social Media Accounts Right Now"
+          },
+          "title_without_series": {
+            "_text": "Ten Arguments For Deleting Your Social Media Accounts Right Now"
+          },
+          "image_url": {
+            "_text": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          },
+          "small_image_url": {
+            "_text": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          },
+          "large_image_url": {},
+          "link": {
+            "_text": "https://www.goodreads.com/book/show/37830765-ten-arguments-for-deleting-your-social-media-accounts-right-now"
+          },
+          "num_pages": {
+            "_text": "160"
+          },
+          "format": {
+            "_text": "Hardcover"
+          },
+          "edition_information": {},
+          "publisher": {
+            "_text": "Bodley Head"
+          },
+          "publication_day": {
+            "_text": "31"
+          },
+          "publication_year": {
+            "_text": "2018"
+          },
+          "publication_month": {
+            "_text": "5"
+          },
+          "average_rating": {
+            "_text": "3.72"
+          },
+          "ratings_count": {
+            "_text": "351"
+          },
+          "description": {
+            "_text": "<b>'A blisteringly good, urgent, essential read' ZADIE SMITH</b><br /><br /><b>Jaron Lanier, the world-famous Silicon Valley scientist-pioneer and 'high-tech genius' (<i>Sunday Times</i>) who first alerted us to the dangers of social media, explains why its toxic effects are at the heart of its design, and explains in ten simple arguments why liberating yourself from its hold will transform your life and the world for the better.</b><br /><br />Social media is making us sadder, angrier, less empathetic, more fearful, more isolated and more tribal. In recent months it has become horribly clear that social media is not bringing us together – it is tearing us apart. In <i>Ten Arguments For Deleting Your Social Media Accounts Right Now </i>Jaron Lanier draws on his insider's expertise to explain precisely how social media works – by deploying constant surveillance and subconscious manipulation of its users – and why its cruel and dangerous effects are at the heart of its current business model and design. As well as offering ten simple arguments for liberating yourself from its addictive hold, his witty and urgent manifesto outlines a vision for an alternative that provides all the benefits of social media without the harm.<br /><br />So, if you want a happier life, a more just and peaceful world, or merely the chance to think for yourself without being monitored and influenced by the richest corporations in history, then the best thing you can do, for now, is delete your social media accounts – right now. You will almost certainly become a calmer and possibly a nicer person in the process."
+          },
+          "authors": {
+            "author": {
+              "id": {
+                "_text": "3010868"
+              },
+              "name": {
+                "_text": "Jaron Lanier"
+              },
+              "role": {},
+              "image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1374281772p5/3010868.jpg"
+              },
+              "small_image_url": {
+                "_attributes": {
+                  "nophoto": "false"
+                },
+                "_cdata": "https://images.gr-assets.com/authors/1374281772p2/3010868.jpg"
+              },
+              "link": {
+                "_cdata": "https://www.goodreads.com/author/show/3010868.Jaron_Lanier"
+              },
+              "average_rating": {
+                "_text": "3.62"
+              },
+              "ratings_count": {
+                "_text": "8288"
+              },
+              "text_reviews_count": {
+                "_text": "1019"
+              }
+            }
+          },
+          "published": {
+            "_text": "2018"
+          },
+          "work": {
+            "id": {
+              "_text": "59513117"
+            },
+            "uri": {
+              "_text": "kca://work/amzn1.gr.work.v1.KscK5RSe_ylQ0zsP8vpPHQ"
+            }
+          }
+        },
+        "rating": {
+          "_text": "0"
+        },
+        "votes": {
+          "_text": "0"
+        },
+        "spoiler_flag": {
+          "_text": "false"
+        },
+        "spoilers_state": {
+          "_text": "none"
+        },
+        "shelves": {
+          "shelf": {
+            "_attributes": {
+              "exclusive": "true",
+              "id": "74790138",
+              "name": "to-read",
+              "review_shelf_id": "2097188999",
+              "sortable": "true"
+            }
+          }
+        },
+        "recommended_for": {},
+        "recommended_by": {},
+        "started_at": {},
+        "read_at": {},
+        "date_added": {
+          "_text": "Mon Jul 09 05:58:56 -0700 2018"
+        },
+        "date_updated": {
+          "_text": "Mon Jul 09 05:58:56 -0700 2018"
+        },
+        "read_count": {
+          "_text": "0"
+        },
+        "body": {},
+        "comments_count": {
+          "_text": "0"
+        },
+        "url": {
+          "_cdata": "https://www.goodreads.com/review/show/2450769655"
+        },
+        "link": {
+          "_cdata": "https://www.goodreads.com/review/show/2450769655"
+        },
+        "owned": {
+          "_text": "0"
+        }
+      }
+    ]
+  }
+}
