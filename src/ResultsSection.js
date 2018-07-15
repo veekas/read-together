@@ -1,14 +1,31 @@
 import React from 'react';
+import UserSelection from './UserSelection';
+import MatchedBooks from './MatchedBooks';
 
-const ResultsSection = ({ userIds }) => (
+const ResultsSection = ({ matchedBooks, userBooks, userIds, userNames }) => (
   <div>
     <div>
-      Click 'Submit' to search for books that each of the following users want to read:
+      <div>Click 'Submit' to search for books that each of the following users want to read:</div>
+      <div>{userIds.join(', ')}</div>
     </div>
 
-    <div>
-      {userIds.join(', ')}
-    </div>
+    {
+      Object.keys(userNames).length
+        ? <UserSelection userNames={userNames} />
+        : null
+    }
+
+    {
+      Object.keys(userBooks).length > 1 || Object.keys(userNames).length > 1
+        ? (
+          <MatchedBooks
+            userBooks={userBooks}
+            userIds={userIds}
+            userNames={userNames}
+          />
+        )
+        : null
+    }
   </div>
 );
 
