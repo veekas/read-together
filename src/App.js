@@ -9,10 +9,10 @@ class App extends Component {
   state = {
     errorMessage: null,
     loading: false,
-    userBooks: {}, // { { user: books[Array] }, ... }
-    userComplete: {}, // { { user: Boolean }, ... }
+    userBooks: {},
+    userComplete: {},
     userIds: [],
-    userNames: {}, // { { userId: userNameOrName }, ... }
+    userNames: {},
   }
 
   handleChange = event => {
@@ -22,8 +22,8 @@ class App extends Component {
     value
       .split(',')
       .map(id => {
-        const cleanId = id.trim().match(/^[0-9]*$/g);
-        if (cleanId && cleanId.length) {
+        const cleanId = id.trim();
+        if (cleanId.match(/^[0-9]*$/g) && cleanId.length) {
           userIds.add(cleanId);
         }
         return cleanId;
@@ -36,12 +36,14 @@ class App extends Component {
   }
 
   handleSubmit = () => {
-    const { userIds } = this.state;
+    const { userComplete, userIds } = this.state;
     let errorMessage = null;
 
-    if (!userIds.length) {
+    const totalUsersSearched = userIds.length + Object.keys(userComplete).length;
+
+    if (!totalUsersSearched) {
       errorMessage = ERRORS.EMPTY_INPUT;
-    } else if (userIds.length === 1) {
+    } else if (totalUsersSearched === 1) {
       errorMessage = ERRORS.TWO_USERS_NEEDED;
     } else {
       userIds.map(id => this.getBooks(id));
@@ -138,7 +140,7 @@ class App extends Component {
 
   render() {
     const { errorMessage, userBooks, userIds, userNames } = this.state;
-    console.log(this.state)
+    // Object.keys(userBooks).length > 1 ? console.log(this.state) : null;
 
     return (
       <div className="App">

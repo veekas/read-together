@@ -1,0 +1,167 @@
+{
+  "id": {
+    "_text": "2455625383"
+  },
+  "book": {
+    "id": {
+      "_attributes": {
+        "type": "integer"
+      },
+      "_text": "26114480"
+    },
+    "isbn": {
+      "_text": "1250091896"
+    },
+    "isbn13": {
+      "_text": "9781250091895"
+    },
+    "text_reviews_count": {
+      "_attributes": {
+        "type": "integer"
+      },
+      "_text": "26"
+    },
+    "uri": {
+      "_text": "kca://book/amzn1.gr.book.v1.CStAaFyc5q1I_FU45EbFFw"
+    },
+    "title": {
+      "_text": "Modern Monopolies: What It Takes to Dominate the 21st Century Economy"
+    },
+    "title_without_series": {
+      "_text": "Modern Monopolies: What It Takes to Dominate the 21st Century Economy"
+    },
+    "image_url": {
+      "_text": "https://images.gr-assets.com/books/1463571155m/26114480.jpg"
+    },
+    "small_image_url": {
+      "_text": "https://images.gr-assets.com/books/1463571155s/26114480.jpg"
+    },
+    "large_image_url": {},
+    "link": {
+      "_text": "https://www.goodreads.com/book/show/26114480-modern-monopolies"
+    },
+    "num_pages": {
+      "_text": "272"
+    },
+    "format": {
+      "_text": "Hardcover"
+    },
+    "edition_information": {},
+    "publisher": {
+      "_text": "St. Martin's Press"
+    },
+    "publication_day": {
+      "_text": "31"
+    },
+    "publication_year": {
+      "_text": "2016"
+    },
+    "publication_month": {
+      "_text": "5"
+    },
+    "average_rating": {
+      "_text": "4.17"
+    },
+    "ratings_count": {
+      "_text": "218"
+    },
+    "description": {
+      "_text": "What do Google, Snapchat, Tinder, Amazon, and Uber have in common, besides soaring market share? They're platforms - a new business model that has quietly become the only game in town, creating vast fortunes for its founders while dominating everyone's daily life. A platform, by definition, creates value by facilitating an exchange between two or more interdependent groups. So, rather that making things, they simply connect people.<br /><br />The Internet today is awash in platforms - Facebook is responsible for nearly 25 percent of total Web visits, and the Google platform crash in 2013 took about 40 percent of Internet traffic with it. Representing the ten most trafficked sites in the U.S., platforms are also prominent over the globe; in China, they hold the top eight spots in web traffic rankings.<br /><br />The advent of mobile computing and its ubiquitous connectivity have forever altered how we interact with each other, melding the digital and physical worlds and blurring distinctions between \"offline\" and \"online.\" These platform giants are expanding their influence from the digital world to the whole economy. Yet, few people truly grasp the radical structural shifts of the last ten years. In <i>Modern Monopolies</i>, Alex Moazed and Nicholas L. Johnson tell the definitive story of what has changed, what it means for businesses today, and how managers, entrepreneurs, and business owners can adapt and thrive in this new era."
+    },
+    "authors": {
+      "author": {
+        "id": {
+          "_text": "14220738"
+        },
+        "name": {
+          "_text": "Alex Moazed"
+        },
+        "role": {},
+        "image_url": {
+          "_attributes": {
+            "nophoto": "true"
+          },
+          "_cdata": "https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png"
+        },
+        "small_image_url": {
+          "_attributes": {
+            "nophoto": "true"
+          },
+          "_cdata": "https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png"
+        },
+        "link": {
+          "_cdata": "https://www.goodreads.com/author/show/14220738.Alex_Moazed"
+        },
+        "average_rating": {
+          "_text": "4.20"
+        },
+        "ratings_count": {
+          "_text": "230"
+        },
+        "text_reviews_count": {
+          "_text": "29"
+        }
+      }
+    },
+    "published": {
+      "_text": "2016"
+    },
+    "work": {
+      "id": {
+        "_text": "46061329"
+      },
+      "uri": {
+        "_text": "kca://work/amzn1.gr.work.v1.8qg1cbVxyCp6QwFbAEP_yQ"
+      }
+    }
+  },
+  "rating": {
+    "_text": "0"
+  },
+  "votes": {
+    "_text": "0"
+  },
+  "spoiler_flag": {
+    "_text": "false"
+  },
+  "spoilers_state": {
+    "_text": "none"
+  },
+  "shelves": {
+    "shelf": {
+      "_attributes": {
+        "exclusive": "true",
+        "id": "161147033",
+        "name": "to-read",
+        "review_shelf_id": "2101992291",
+        "sortable": "true"
+      }
+    }
+  },
+  "recommended_for": {},
+  "recommended_by": {},
+  "started_at": {},
+  "read_at": {},
+  "date_added": {
+    "_text": "Fri Jul 13 07:48:18 -0700 2018"
+  },
+  "date_updated": {
+    "_text": "Fri Jul 13 07:48:18 -0700 2018"
+  },
+  "read_count": {
+    "_text": "0"
+  },
+  "body": {},
+  "comments_count": {
+    "_text": "0"
+  },
+  "url": {
+    "_cdata": "https://www.goodreads.com/review/show/2455625383"
+  },
+  "link": {
+    "_cdata": "https://www.goodreads.com/review/show/2455625383"
+  },
+  "owned": {
+    "_text": "0"
+  }
+}

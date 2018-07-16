@@ -2,7 +2,7 @@ import React from 'react';
 import UserSelection from './UserSelection';
 import MatchedBooks from './MatchedBooks';
 
-const ResultsSection = ({ matchedBooks, userBooks, userIds, userNames }) => (
+const ResultsSection = ({ userBooks, userIds, userNames }) => (
   <div>
     <div>
       <div>Click 'Submit' to search for books that each of the following users want to read:</div>
@@ -20,7 +20,6 @@ const ResultsSection = ({ matchedBooks, userBooks, userIds, userNames }) => (
         ? (
           <MatchedBooks
             userBooks={userBooks}
-            userIds={userIds}
             userNames={userNames}
           />
         )
