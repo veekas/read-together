@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 // https://www.goodreads.com/book/show/[ID]
 
 export default class MatchedBooks extends Component {
-  state = { matchedBooks: {} }; // { bookId: {bookInfo, [users] } }
+  state = {
+    matchedBooks: {}, // { bookId: {bookInfo, [users] } }
+    userMatched: {},
+  };
 
   componentDidMount() {
     this.findMatchingBooks();
@@ -16,71 +19,91 @@ export default class MatchedBooks extends Component {
   }
 
   findMatchingBooks = () => {
-    const { matchedBooks } = this.state;
-    const { userBooks, userNames } = this.props;
+    const { matchedBooks, userMatched } = this.state;
+    const { userBooks } = this.props;
+    const potentialMatches = {};
 
-    // if (Object.keys(matchedBooks).length) {
-    //   console.log('logic for comparing against matched books');
-    // }
+    for (let userId in userBooks) {
+      if (!userBooks.hasOwnProperty(userId) || userMatched.hasOwnProperty(userId)) continue;
 
-    // else {
-      const potentialMatches = {};
+      const singleUserBooks = Object.values(userBooks[userId]);
+      singleUserBooks.map(book => {
+        const id = book.book.id._text;
 
-      for (let userId in userBooks) {
-        if (!userBooks.hasOwnProperty(userId)) continue;
+        if (id in potentialMatches) {
+          const prevUser = potentialMatches[id];
+          const users = [prevUser, userId];
 
-        const singleUserBooks = Object.values(userBooks[userId]);
-        singleUserBooks.map(book => {
-          const id = book.book.id._text;
+          if (id in matchedBooks) {
+            const updatedBook = matchedBooks[id];
+            const previousUsers = matchedBooks[id].users;
+            const updatedUsers = [...new Set([...previousUsers, ...users])];
+            updatedBook.users = updatedUsers;
 
-          if (id in potentialMatches) {
-            const prevUser = potentialMatches[id];
-            const users = [prevUser, userId];
-
-            if (id in matchedBooks) {
-              console.log('matchedBooks', matchedBooks)
-              console.log('id', id)
-              console.log('matchedBooks[id]', matchedBooks[id])
-              const updatedBook = matchedBooks[id];
-              console.log('updatedBook', updatedBook);
-              const previousUsers = matchedBooks[id].users;
-              console.log('previousUsers', previousUsers);
-              const updatedUsers = [...previousUsers, ...users];
-              console.log('updatedUsers', updatedUsers);
-              updatedBook[users] = updatedUsers;
-
-              console.log('updatedBook just before setting state', updatedBook)
-              // this.setState(prevState => ({
-              //   matchedBooks: { ...prevState.matchedBooks, updatedBook },
-              // }));
-            }
-
-            else {
-              const title = book.book.title._text;
-              const imageUrl = book.book.small_image_url._text;
-              const url = book.book.link._text;
-              const rating = book.book.average_rating._text;
-              const description = book.book.description._text;
-              const author = book.book.authors.author.name._text;
-              const bookObject = { title, author, url, imageUrl, rating, description, users };
-
-              this.setState(prevState => ({
-                matchedBooks: { ...prevState.matchedBooks, [id]: bookObject },
-              }));
-            }
-          } else {
-            potentialMatches[id] = userId;
+            this.setState(prevState => ({
+              matchedBooks: { ...prevState.matchedBooks, updatedBook },
+            }));
           }
 
-          return book;
-        });
-      }
-    // }
+          else {
+            const author = book.book.authors.author.name._text;
+            const description = book.book.description._text;
+            const imageUrl = book.book.small_image_url._text;
+            const rating = book.book.average_rating._text;
+            const title = book.book.title._text;
+            const url = book.book.link._text;
+            const bookObject = { author, description, imageUrl, rating, title, url, users };
+
+            this.setState(prevState => ({
+              matchedBooks: { ...prevState.matchedBooks, [id]: bookObject },
+            }));
+          }
+        }
+
+        potentialMatches[id] = userId;
+
+        return book;
+      });
+
+      this.setState(prevState => ({
+        userMatched: { ...prevState.userMatched, [userId]: true },
+      }));
+    }
+  }
+
+  renderMatchedBooks = () => {
+    const { matchedBooks } = this.state;
+    const { userNames } = this.props;
+    const matchedBooksArray = Object.keys(matchedBooks);
+
+    return matchedBooksArray.map(book => {
+      const { author, description, imageUrl, rating, title, url, users } = matchedBooks[book];
+      const names = users.map(userId => userNames[userId]).join(', ');
+
+      return (
+        <div key={url}>
+          <div>
+            <img src={imageUrl} />
+          </div>
+
+          <div>
+            <div><a href={url}>{title}</a></div>
+            <div>
+              <div>by {author}</div>
+              <div>{rating} stars</div>
+            </div>
+            <div>Shelved by: {names}</div>
+            {/* <div>Description: {description}</div> */}
+          </div>
+        </div>
+      );
+    });
   }
 
   render() {
     const { matchedBooks } = this.state;
-    console.log(matchedBooks);
+    console.log('matchedBooksState', this.state);
+    console.log('loading status is' + this.props.loading);
 
     return (
       <div>
@@ -89,7 +112,7 @@ export default class MatchedBooks extends Component {
         </div>
 
         <div>
-          will go here
+          {Object.keys(matchedBooks).length ? this.renderMatchedBooks() : 'No matched books yet'}
         </div>
       </div>
     );

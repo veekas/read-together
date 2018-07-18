@@ -49,7 +49,7 @@ class App extends Component {
       userIds.map(id => this.getBooks(id));
     }
 
-    this.setState({ errorMessage })
+    this.setState({ errorMessage, loading: true })
   }
 
   getUserInfo = userId => {
@@ -70,7 +70,7 @@ class App extends Component {
           userNames: { ...prevState.userNames, ...newUserName },
         }));
       })
-      .catch(() => this.setState({ errorMessage: ERRORS.INVALID_ID }));
+      .catch(() => this.setState({ errorMessage: ERRORS.INVALID_ID, loading: false }));
   }
 
   getBooks = userId => {
@@ -82,14 +82,14 @@ class App extends Component {
 
     let pageNumber = 1;
     let lastBookInResponse = 0;
-    let totalBooksOnShelf = 9999;
+    let totalBooksOnShelf = 1000;
     let allBooks = [];
 
     const extraParamsArr = [
       'shelf=to-read',
       'sort=date_added',
       'order=d',
-      'per_page=2',
+      'per_page=10',
     ];
     const extraParams = extraParamsArr.join('&');
 
@@ -108,12 +108,12 @@ class App extends Component {
           pageNumber++;
         })
         .then(() => {
-          if (lastBookInResponse < 5) {
+          if (lastBookInResponse < 50) {
             getBooksOnPage(pageNumber);
           }
         })
         .then(() => {
-          if (lastBookInResponse >= 5) {
+          if (lastBookInResponse >= 50) {
             const newBooks = { [userId]: allBooks };
             this.setState(prevState => ({
               userBooks: { ...prevState.userBooks, ...newBooks },
@@ -121,7 +121,7 @@ class App extends Component {
             }));
           }
         })
-        .catch(() => this.setState({ errorMessage: ERRORS.INVALID_ID }));
+        .catch(() => this.setState({ errorMessage: ERRORS.INVALID_ID, loading: false }));
     }
 
     getBooksOnPage(pageNumber);
@@ -139,8 +139,8 @@ class App extends Component {
   }
 
   render() {
-    const { errorMessage, userBooks, userIds, userNames } = this.state;
-    // Object.keys(userBooks).length > 1 ? console.log(this.state) : null;
+    const { errorMessage, loading, userBooks, userIds, userNames } = this.state;
+    Object.keys(userBooks).length > 1 ? console.log('appState', this.state) : null;
 
     return (
       <div className="App">
@@ -163,6 +163,7 @@ class App extends Component {
                 userBooks={userBooks}
                 userIds={userIds}
                 userNames={userNames}
+                loading={loading}
               />
             )
             : null
